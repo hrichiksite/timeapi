@@ -1,10 +1,8 @@
 module.exports = (req, res) => {
 
-var json = new Date();
+var date = new Date().toString();
 
-var dateStr = JSON.parse(json);  
-        
-var date = new Date(dateStr);
+
 
 
 
